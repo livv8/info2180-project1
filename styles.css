@@ -14,16 +14,23 @@ body {
     align-items: center;
 }
 
+header{
+    padding-bottom: 10px;
+}
 h1{
     text-align: left;
     background-color: white;
     font-size: 18px;
+    /*display: inline-block;*/
+    float: left;
 }
 
 ul{
     list-style-type: none;
-    padding: 0;
+    padding-top: 10px;
     margin: 0;
+   /* display: inline-block;*/
+    float: right;
     }
 
 li{
@@ -59,7 +66,7 @@ a:hover{
       height:200px;
      margin-top:10px;
      margin-right: 30px;
-     margin-left: 250px;
+     margin-left: 100px;
     }
 .overview-hero-text{
          text-align: left;
@@ -68,7 +75,7 @@ a:hover{
       }
 
 .learn-about{
-    margin-left: 150px;
+    margin-left: 0px;
    padding-bottom: 40px;
 }
 
@@ -119,8 +126,9 @@ a:hover{
     color: white;
     text-align: left;
     padding: 60px;
-    padding-left:400px ;
+    padding-left:300px ;
     padding-right:350px ;
+    
 }
 .testing a{
         background-color: #48bb78;
@@ -132,6 +140,7 @@ a:hover{
     }
 p.testing{
     padding-right: 50px;
+    float: left;
 }
 
     
@@ -182,8 +191,14 @@ p.testing{
     background-color: #48bb78;
     color: white;
     padding:40px ;
+    padding-bottom: 50px;
     text-align: center;
+
     }
+
+p.newsletter{
+  word-wrap: break-word;
+}
 
 #email{
     padding-top: 10px;
@@ -191,7 +206,17 @@ p.testing{
     padding-left: 34px;
     padding-right:34px; 
     border-radius: 6%;
+    float: left;
 }
+
+.form-group{
+    padding-left: 250px;
+    
+}
+.btn{
+    margin-left: -37%;
+}
+
 .newsletter button{
     background-color: #5a67d8;
     padding-top: 10px;
@@ -204,4 +229,7 @@ p.testing{
 footer{
     background-color: #4a5568;
     color:white;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding: 10px;
 }
